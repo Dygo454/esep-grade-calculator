@@ -19,11 +19,11 @@ var gradeTypeName = map[GradeType]string{
 	Exam:       "exam",
 	Essay:      "essay",
 }
-
+/*
 func (gt GradeType) String() string {
 	return gradeTypeName[gt]
 }
-
+*/
 type Grade struct {
 	Name  string
 	Grade int
